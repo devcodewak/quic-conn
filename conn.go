@@ -4,7 +4,7 @@ import (
 	"net"
 	"time"
 
-	quic "github.com/lucas-clemente/quic-go"
+	quic "github.com/phuslu/quic-go"
 )
 
 type conn struct {

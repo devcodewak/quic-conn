@@ -7,10 +7,10 @@ import (
 	"net"
 	"time"
 
-	quic "github.com/lucas-clemente/quic-go"
-	"github.com/lucas-clemente/quic-go/protocol"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	quic "github.com/phuslu/quic-go"
+	"github.com/phuslu/quic-go/protocol"
 )
 
 type mockPacketConn struct {
